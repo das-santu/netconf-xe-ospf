@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="urn:uuid:82313057-041b-46ea-99ee-2d9ca9cb4bef">
+	<data>
+		<native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+			<interface>
+				<GigabitEthernet>
+					<name>2</name>
+					<ip>
+						<router-ospf xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
+							<ospf>
+								<process-id>
+									<id>1</id>
+									<area>
+										<area-id>0</area-id>
+									</area>
+								</process-id>
+								<network>
+									<point-to-point/>
+								</network>
+							</ospf>
+						</router-ospf>
+					</ip>
+				</GigabitEthernet>
+				<GigabitEthernet>
+					<name>3</name>
+					<ip>
+						<router-ospf xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
+							<ospf>
+								<process-id>
+									<id>1</id>
+									<area>
+										<area-id>0</area-id>
+									</area>
+								</process-id>
+								<network>
+									<point-to-point/>
+								</network>
+							</ospf>
+						</router-ospf>
+					</ip>
+				</GigabitEthernet>
+			</interface>
+		</native>
+	</data>
+</rpc-reply>

@@ -1,0 +1,54 @@
+{
+    "rpc-reply": {
+        "@xmlns": "urn:ietf:params:xml:ns:netconf:base:1.0",
+        "@message-id": "urn:uuid:82313057-041b-46ea-99ee-2d9ca9cb4bef",
+        "@xmlns:nc": "urn:ietf:params:xml:ns:netconf:base:1.0",
+        "data": {
+            "native": {
+                "@xmlns": "http://cisco.com/ns/yang/Cisco-IOS-XE-native",
+                "interface": {
+                    "GigabitEthernet": [
+                        {
+                            "name": "2",
+                            "ip": {
+                                "router-ospf": {
+                                    "@xmlns": "http://cisco.com/ns/yang/Cisco-IOS-XE-ospf",
+                                    "ospf": {
+                                        "process-id": {
+                                            "id": "1",
+                                            "area": {
+                                                "area-id": "0"
+                                            }
+                                        },
+                                        "network": {
+                                            "point-to-point": null
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "3",
+                            "ip": {
+                                "router-ospf": {
+                                    "@xmlns": "http://cisco.com/ns/yang/Cisco-IOS-XE-ospf",
+                                    "ospf": {
+                                        "process-id": {
+                                            "id": "1",
+                                            "area": {
+                                                "area-id": "0"
+                                            }
+                                        },
+                                        "network": {
+                                            "point-to-point": null
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
